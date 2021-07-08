@@ -1,0 +1,56 @@
+@charset "utf-8"
+
+* {
+  font-family: Helvetica , "游ゴシック", sans-serif;
+}
+
+.header {
+  color: #000080;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2vw 5vw 0;
+}
+
+h1{
+  font-size: 2vw;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  font-weight: bold;
+  font-size: 1.2vw;
+  width: 10vw;
+  padding: 1vw;
+}
+
+.box {
+  position: relative;
+  width: 100;
+  height: 100;
+  padding: 0 5vw 5vw 5vw;
+}
+
+.img {
+  width: 40vw;
+  position: absolute;
+  top: 7vw;
+  left: 57vw;
+  z-index: 1;
+}
+
+.contents {
+  width: 70vw;
+  border-bottom: solid 10vw #000080;
+  position: absolute;
+  top: 25vw;
+  font-size: 4.5vw;
+  font-weight: 500;
+  z-index: 0;
+}
